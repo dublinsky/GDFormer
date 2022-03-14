@@ -2,8 +2,8 @@
 Graph Diffusing trans-Former for traffic flow prediction. This repo. contains the data set and code for our paper submitted to Pattern Recognition Letters. Overview of this model is shown in the following figure, it is a sequence to sequence architecture, both of the encoders and decoders are constitued by the nodel designed GDA module and the auxiliaries.
 ![architecture](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/2664024110872.png)
 The internal instructure of the encoder and the decoder are highlighted in the following figures,
-![enc](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/2152128129298.png)
-![dec](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/3572128117165.png)
+![enc](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/2152128129298.png =357x)
+![dec](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/3572128117165.png =357x)
 Now we show how to reproduce the results shown in our paper. 
 ## 1. environment description
 Hardware: Intel Core i5-7400, NVIDIA GeForce RTX 3080TI with 12G GPU RAM.
@@ -70,17 +70,22 @@ Run the following command to obtain the dynamic refreshing adjacency matrix visu
 python getRes.py
 ```
 The results of PeMS03 data set is given by,
-![METR_0step_enc_adj](Images/5931821150189.png =430x)![METR_5step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5880723147793.png?raw=true)
-![METR_0step_dec_adj](Images/5887954130000.png =430x)![METR_5step_dec_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/76356126555.png)
+![METR_0step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5931821150189.png =430x)
+![METR_5step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5880723147793.png =430x)
+![METR_0step_dec_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5887954130000.png =430x)
+![METR_5step_dec_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/76356126555.png =430x)
 The results of METR-LA data set is given by,
-![PeMS_0step_enc_adj](Images/3316340145295.png =430x)![METR_5step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/1005341126536.png)
-![METR_0step_dec_adj](Images/5198541148976.png =430x)![METR_5step_dec_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/1420742144112.png)
+![PeMS_0step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/3316340145295.png =430x)
+![METR_5step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/1005341126536.png =430x)
+![METR_0step_dec_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5198541148976.png =430x)
+![METR_5step_dec_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/1420742144112.png =430x)
 To visualize the traffic flow prediction of randomly chosen sensors at randomly truncated time ticks, run the following command,
 ```
 python getRes.py
 ```
 The results of PeMS03 data set is given by,
-![PeMS_443th_node_start_at667_flow](Images/410056137658.png =430x)![PeMS_539th_node_start_at1594_flow](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/3489556130792.png)
+![PeMS_443th_node_start_at667_flow](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/410056137658.png =430x)
+![PeMS_539th_node_start_at1594_flow](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/3489556130792.png =430x)
 The results of METR-LA data set is given by,
-![METR_74th_node_start_at5301_flow](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/4479958121322.png)
-![METR_195th_node_start_at6096_flow](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5752858123826.png)
+![METR_74th_node_start_at5301_flow](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/4479958121322.png =430x)
+![METR_195th_node_start_at6096_flow](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5752858123826.png =430x)
