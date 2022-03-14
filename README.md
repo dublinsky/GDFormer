@@ -70,7 +70,7 @@ Run the following command to obtain the dynamic refreshing adjacency matrix visu
 python getRes.py
 ```
 The results of PeMS03 data set is given by,
-![METR_0step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5931821150189.pngx)
+![METR_0step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5931821150189.png)
 ![METR_5step_enc_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5880723147793.png)
 ![METR_0step_dec_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/5887954130000.png)
 ![METR_5step_dec_adj](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/76356126555.png)
