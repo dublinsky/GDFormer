@@ -3,7 +3,9 @@ Graph Diffusing trans-Former for traffic flow prediction. This repo. contains th
 ![architecture](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/2664024110872.png)
 The internal instructure of the encoder and the decoder are highlighted in the following figures,
 ![enc](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/2152128129298.png)
+
 ![dec](https://raw.githubusercontent.com/dublinsky/GDFormer/main/Images/3572128117165.png)
+
 Now we show how to reproduce the results shown in our paper. 
 ## 1. environment description
 Hardware: Intel Core i5-7400, NVIDIA GeForce RTX 3080TI with 12G GPU RAM.
