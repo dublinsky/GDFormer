@@ -1,6 +1,6 @@
 # GDFormer
 Graph Diffusing trans-Former for traffic flow prediction. This repo. contains the data set and code for our paper submitted to Pattern Recognition Letters. Overview of this model is shown in the following figure, it is a sequence to sequence architecture, both of the encoders and decoders are constitued by the nodel designed GDA module and the auxiliaries.
-![architecture](https://github.com/dublinsky/GDFormer/Images/2664024110872.png?raw=true)
+![architecture](https://github.com/dublinsky/GDFormer/Images/2664024110872.png)
 The internal instructure of the encoder and the decoder are highlighted in the following figures,
 ![enc](https://github.com/dublinsky/GDFormer/Images/2152128129298.png?raw=true)
 ![dec](https://github.com/dublinsky/GDFormer/Images/3572128117165.png?raw=true)
